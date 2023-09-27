@@ -271,11 +271,11 @@ p{
   width:100%;
 }
 
-#rain-garden{
+#rain-garden, #reach{
   background: rgba(91, 130, 16, 0.7);
 }
 
-#pnb, #hat{
+#pnb,#nrca,#bpl{
   background: rgba(15, 46, 125, 0.7);
 }
 
@@ -287,8 +287,16 @@ p{
   background: rgba(38, 134, 191, 0.7);
 }
 
+#dmdhub{
+  background: rgba(75, 78, 212, 0.7)
+}
+
 #time{
   background:rgba(93, 58, 89, 0.7)
+}
+
+#pigeon,#hat{
+  background:rgba(18, 92, 165, 0.7)
 }
 
 #dnd{
@@ -311,7 +319,7 @@ p{
   background: rgba(12, 18, 40, 0.7)
 }
 
-#smart{
+#smart, #vest{
   background: rgba(56, 56, 56,0.7)
 }
 
@@ -323,11 +331,11 @@ p{
   background: rgba(50, 155, 173, 0.7)
 }
 
-#alchemist{
+#alchemist,#breadwinner{
   background: rgba(43, 53, 80, 0.7)
 }
 
-#neverforget{
+#neverforget,#cookbook{
   background: rgba(148, 0, 0, 0.7)
 }
 
@@ -342,19 +350,17 @@ p{
   color: rgba(0,0,0,.4);
 }
 
-#all{
-  color: rgba(0,0,0,1)
-}
 .filter:hover {
   cursor: pointer;
 }
 
 .hide { 
-  animation: hide 0s ease 0s 1 normal forwards;
+  animation: hide 0s ease 0s forwards;
   transform-origin: center;
 }
+
 .show { 
-    animation: show 0s ease 0s 1 normal forwards;    
+    animation: show 0s ease 0s forwards;    
     transform-origin: center;
 }
 
