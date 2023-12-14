@@ -275,6 +275,10 @@ p{
   background: rgba(91, 130, 16, 0.7);
 }
 
+#clue{
+  background:rgba(69, 89, 85, 0.7)
+}
+
 #pnb,#nrca,#bpl{
   background: rgba(15, 46, 125, 0.7);
 }
